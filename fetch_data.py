@@ -4,6 +4,7 @@
 - Batch-downloads dividend/split-adjusted daily data from Yahoo Finance (2010+)
 - Keeps stocks with enough history and liquidity, writes gzipped CSVs
 - Falls back to the original TW50 superset if the ISIN scrape fails
+- Finally runs fetch_revenue.py (MOPS monthly revenue, all listed companies)
 """
 import gzip
 import json
@@ -108,6 +109,21 @@ def main():
                'updated': pd.Timestamp.now().isoformat()},
               open('manifest.json', 'w'), indent=1)
     print('done ok:', len(ok), 'skipped:', len(skipped), 'fail:', len(fail))
+
+    # monthly revenue (skip if fresh file already exists and is current month)
+    try:
+        import fetch_revenue
+        need = True
+        if os.path.exists('data/revenue.csv.gz'):
+            rv = pd.read_csv('data/revenue.csv.gz')
+            last = pd.Period(rv['ym'].max(), freq='M')
+            if last >= pd.Timestamp.now().to_period('M') - 1:
+                need = False
+                print('revenue up to date:', last)
+        if need:
+            fetch_revenue.main()
+    except Exception as e:
+        print('revenue fetch failed:', e)
 
 
 if __name__ == '__main__':
