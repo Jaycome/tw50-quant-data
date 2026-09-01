@@ -1,18 +1,22 @@
 EMPTY https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_113_1_0.html tables= 68
 MISS https://mops.twse.com.tw/nas/t21/sii/t21sc03_113_1_0.html <HTTPError 404: ''>
 MOPS probe failed -> fallback to FinMind
-FinMind fallback for 759 stocks
-FM progress 0 / 759 rows 175 fails 0
-FM progress 50 / 759 rows 8791 fails 0
-FM progress 100 / 759 rows 17097 fails 0
-FM progress 150 / 759 rows 25847 fails 0
-FM progress 200 / 759 rows 34598 fails 0
-FM progress 250 / 759 rows 42908 fails 0
+FinMind fallback for 767 stocks
+FM progress 0 / 767 rows 176 fails 0
+FM progress 50 / 767 rows 8842 fails 0
+FM progress 100 / 767 rows 17198 fails 0
+FM progress 150 / 767 rows 25998 fails 0
+FM progress 200 / 767 rows 34798 fails 0
+FM progress 250 / 767 rows 43158 fails 0
+FM-ERR 3149 <HTTPError 402: 'Payment Required'>
+FM-ERR 3149 <HTTPError 402: 'Payment Required'>
+FM-ERR 3149 <HTTPError 402: 'Payment Required'>
+FM-ERR 3149 <HTTPError 402: 'Payment Required'>
+FM progress 300 / 767 rows 51593 fails 1
 FM-ERR 3152 <HTTPError 402: 'Payment Required'>
 FM-ERR 3152 <HTTPError 402: 'Payment Required'>
 FM-ERR 3152 <HTTPError 402: 'Payment Required'>
 FM-ERR 3152 <HTTPError 402: 'Payment Required'>
-FM progress 300 / 759 rows 51456 fails 1
 FM-ERR 3162 <HTTPError 402: 'Payment Required'>
 FM-ERR 3162 <HTTPError 402: 'Payment Required'>
 FM-ERR 3162 <HTTPError 402: 'Payment Required'>
@@ -33,6 +37,8 @@ FM-ERR 3207 <HTTPError 402: 'Payment Required'>
 FM-ERR 3207 <HTTPError 402: 'Payment Required'>
 FM-ERR 3207 <HTTPError 402: 'Payment Required'>
 FM-ERR 3207 <HTTPError 402: 'Payment Required'>
+FM-ERR 3209 <HTTPError 402: 'Payment Required'>
+FM-ERR 3209 <HTTPError 402: 'Payment Required'>
 FM-ERR 3209 <HTTPError 402: 'Payment Required'>
 FM-ERR 3209 <HTTPError 402: 'Payment Required'>
 FM-ERR 3211 <HTTPError 402: 'Payment Required'>
@@ -115,6 +121,8 @@ FM-ERR 3323 <HTTPError 402: 'Payment Required'>
 FM-ERR 3323 <HTTPError 402: 'Payment Required'>
 FM-ERR 3323 <HTTPError 402: 'Payment Required'>
 FM-ERR 3323 <HTTPError 402: 'Payment Required'>
+FM-ERR 3324 <HTTPError 402: 'Payment Required'>
+FM-ERR 3324 <HTTPError 402: 'Payment Required'>
 FM-ERR 3324 <HTTPError 402: 'Payment Required'>
 FM-ERR 3324 <HTTPError 402: 'Payment Required'>
 FM-ERR 3338 <HTTPError 402: 'Payment Required'>
@@ -138,6 +146,9 @@ FM-ERR 3362 <HTTPError 402: 'Payment Required'>
 FM-ERR 3362 <HTTPError 402: 'Payment Required'>
 FM-ERR 3362 <HTTPError 402: 'Payment Required'>
 FM-ERR 3363 <HTTPError 402: 'Payment Required'>
+FM-ERR 3363 <HTTPError 402: 'Payment Required'>
+FM-ERR 3363 <HTTPError 402: 'Payment Required'>
+FM-ERR 3363 <HTTPError 402: 'Payment Required'>
 FM-ERR 3374 <HTTPError 402: 'Payment Required'>
 FM-ERR 3374 <HTTPError 402: 'Payment Required'>
 FM-ERR 3374 <HTTPError 402: 'Payment Required'>
@@ -149,19 +160,6 @@ FM-ERR 3376 <HTTPError 402: 'Payment Required'>
 FM-ERR 3379 <HTTPError 402: 'Payment Required'>
 FM-ERR 3379 <HTTPError 402: 'Payment Required'>
 FM-ERR 3379 <HTTPError 402: 'Payment Required'>
-FM-ERR 3379 <HTTPError 402: 'Payment Required'>
-FM-ERR 3380 <HTTPError 402: 'Payment Required'>
-FM-ERR 3380 <HTTPError 402: 'Payment Required'>
-FM-ERR 3380 <HTTPError 402: 'Payment Required'>
-FM-ERR 3380 <HTTPError 402: 'Payment Required'>
-FM-ERR 3402 <HTTPError 402: 'Payment Required'>
-FM-ERR 3402 <HTTPError 402: 'Payment Required'>
-FM-ERR 3402 <HTTPError 402: 'Payment Required'>
-FM-ERR 3402 <HTTPError 402: 'Payment Required'>
-FM-ERR 3406 <HTTPError 402: 'Payment Required'>
-FM-ERR 3406 <HTTPError 402: 'Payment Required'>
-FM-ERR 3406 <HTTPError 402: 'Payment Required'>
-FM-ERR 3406 <HTTPError 402: 'Payment Required'>
 FM-ERR 3413 <HTTPError 402: 'Payment Required'>
 FM-ERR 3413 <HTTPError 402: 'Payment Required'>
 FM-ERR 3413 <HTTPError 402: 'Payment Required'>
@@ -176,14 +174,28 @@ FM-ERR 3430 <HTTPError 402: 'Payment Required'>
 FM-ERR 3430 <HTTPError 402: 'Payment Required'>
 FM-ERR 3443 <HTTPError 402: 'Payment Required'>
 FM-ERR 3443 <HTTPError 402: 'Payment Required'>
-FM-ERR 3443 <HTTPError 402: 'Payment Required'>
-FM-ERR 3443 <HTTPError 402: 'Payment Required'>
-FM progress 350 / 759 rows 53152 fails 41
-FM progress 400 / 759 rows 61334 fails 41
-FM progress 450 / 759 rows 68790 fails 41
-FM progress 500 / 759 rows 77272 fails 41
-FM progress 550 / 759 rows 86012 fails 41
-FM progress 600 / 759 rows 93993 fails 41
+FM progress 350 / 767 rows 53475 fails 40
+FM progress 400 / 767 rows 61943 fails 40
+FM progress 450 / 767 rows 69132 fails 40
+FM-ERR 4991 <HTTPError 402: 'Payment Required'>
+FM progress 500 / 767 rows 77664 fails 40
+FM progress 550 / 767 rows 86454 fails 40
+FM progress 600 / 767 rows 94698 fails 40
+FM-ERR 6727 <HTTPError 402: 'Payment Required'>
+FM-ERR 6727 <HTTPError 402: 'Payment Required'>
+FM-ERR 6727 <HTTPError 402: 'Payment Required'>
+FM-ERR 6727 <HTTPError 402: 'Payment Required'>
+FM-ERR 6732 <HTTPError 402: 'Payment Required'>
+FM-ERR 6732 <HTTPError 402: 'Payment Required'>
+FM-ERR 6732 <HTTPError 402: 'Payment Required'>
+FM-ERR 6732 <HTTPError 402: 'Payment Required'>
+FM-ERR 6742 <HTTPError 402: 'Payment Required'>
+FM-ERR 6742 <HTTPError 402: 'Payment Required'>
+FM-ERR 6742 <HTTPError 402: 'Payment Required'>
+FM-ERR 6753 <HTTPError 402: 'Payment Required'>
+FM-ERR 6753 <HTTPError 402: 'Payment Required'>
+FM-ERR 6753 <HTTPError 402: 'Payment Required'>
+FM-ERR 6753 <HTTPError 402: 'Payment Required'>
 FM-ERR 6757 <HTTPError 402: 'Payment Required'>
 FM-ERR 6757 <HTTPError 402: 'Payment Required'>
 FM-ERR 6757 <HTTPError 402: 'Payment Required'>
@@ -200,6 +212,7 @@ FM-ERR 6768 <HTTPError 402: 'Payment Required'>
 FM-ERR 6768 <HTTPError 402: 'Payment Required'>
 FM-ERR 6768 <HTTPError 402: 'Payment Required'>
 FM-ERR 6768 <HTTPError 402: 'Payment Required'>
+FM progress 650 / 767 rows 99286 fails 47
 FM-ERR 6770 <HTTPError 402: 'Payment Required'>
 FM-ERR 6770 <HTTPError 402: 'Payment Required'>
 FM-ERR 6770 <HTTPError 402: 'Payment Required'>
@@ -220,10 +233,6 @@ FM-ERR 6788 <HTTPError 402: 'Payment Required'>
 FM-ERR 6788 <HTTPError 402: 'Payment Required'>
 FM-ERR 6788 <HTTPError 402: 'Payment Required'>
 FM-ERR 6788 <HTTPError 402: 'Payment Required'>
-FM progress 650 / 759 rows 98151 fails 50
-FM-ERR 6789 <HTTPError 402: 'Payment Required'>
-FM-ERR 6789 <HTTPError 402: 'Payment Required'>
-FM-ERR 6789 <HTTPError 402: 'Payment Required'>
 FM-ERR 6789 <HTTPError 402: 'Payment Required'>
 FM-ERR 6799 <HTTPError 402: 'Payment Required'>
 FM-ERR 6799 <HTTPError 402: 'Payment Required'>
@@ -231,11 +240,6 @@ FM-ERR 6799 <HTTPError 402: 'Payment Required'>
 FM-ERR 6799 <HTTPError 402: 'Payment Required'>
 FM-ERR 6805 <HTTPError 402: 'Payment Required'>
 FM-ERR 6805 <HTTPError 402: 'Payment Required'>
-FM-ERR 6805 <HTTPError 402: 'Payment Required'>
-FM-ERR 6805 <HTTPError 402: 'Payment Required'>
-FM-ERR 6811 <HTTPError 402: 'Payment Required'>
-FM-ERR 6811 <HTTPError 402: 'Payment Required'>
-FM-ERR 6811 <HTTPError 402: 'Payment Required'>
 FM-ERR 6811 <HTTPError 402: 'Payment Required'>
 FM-ERR 6829 <HTTPError 402: 'Payment Required'>
 FM-ERR 6829 <HTTPError 402: 'Payment Required'>
@@ -293,6 +297,18 @@ FM-ERR 6919 <HTTPError 402: 'Payment Required'>
 FM-ERR 6919 <HTTPError 402: 'Payment Required'>
 FM-ERR 6919 <HTTPError 402: 'Payment Required'>
 FM-ERR 6919 <HTTPError 402: 'Payment Required'>
+FM-ERR 6933 <HTTPError 402: 'Payment Required'>
+FM-ERR 6933 <HTTPError 402: 'Payment Required'>
+FM-ERR 6933 <HTTPError 402: 'Payment Required'>
+FM-ERR 6933 <HTTPError 402: 'Payment Required'>
+FM-ERR 6937 <HTTPError 402: 'Payment Required'>
+FM-ERR 6937 <HTTPError 402: 'Payment Required'>
+FM-ERR 6937 <HTTPError 402: 'Payment Required'>
+FM-ERR 6937 <HTTPError 402: 'Payment Required'>
+FM-ERR 6944 <HTTPError 402: 'Payment Required'>
+FM-ERR 6944 <HTTPError 402: 'Payment Required'>
+FM-ERR 6944 <HTTPError 402: 'Payment Required'>
+FM-ERR 6944 <HTTPError 402: 'Payment Required'>
 FM-ERR 6949 <HTTPError 402: 'Payment Required'>
 FM-ERR 6949 <HTTPError 402: 'Payment Required'>
 FM-ERR 6949 <HTTPError 402: 'Payment Required'>
@@ -313,6 +329,10 @@ FM-ERR 7402 <HTTPError 402: 'Payment Required'>
 FM-ERR 7402 <HTTPError 402: 'Payment Required'>
 FM-ERR 7402 <HTTPError 402: 'Payment Required'>
 FM-ERR 7402 <HTTPError 402: 'Payment Required'>
+FM-ERR 7610 <HTTPError 402: 'Payment Required'>
+FM-ERR 7610 <HTTPError 402: 'Payment Required'>
+FM-ERR 7610 <HTTPError 402: 'Payment Required'>
+FM-ERR 7610 <HTTPError 402: 'Payment Required'>
 FM-ERR 7722 <HTTPError 402: 'Payment Required'>
 FM-ERR 7722 <HTTPError 402: 'Payment Required'>
 FM-ERR 7722 <HTTPError 402: 'Payment Required'>
@@ -322,38 +342,11 @@ FM-ERR 7734 <HTTPError 402: 'Payment Required'>
 FM-ERR 7734 <HTTPError 402: 'Payment Required'>
 FM-ERR 7734 <HTTPError 402: 'Payment Required'>
 FM-ERR 7740 <HTTPError 402: 'Payment Required'>
-FM-ERR 7740 <HTTPError 402: 'Payment Required'>
-FM-ERR 7740 <HTTPError 402: 'Payment Required'>
-FM-ERR 7740 <HTTPError 402: 'Payment Required'>
 FM-ERR 7749 <HTTPError 402: 'Payment Required'>
 FM-ERR 7749 <HTTPError 402: 'Payment Required'>
 FM-ERR 7749 <HTTPError 402: 'Payment Required'>
 FM-ERR 7749 <HTTPError 402: 'Payment Required'>
 FM-ERR 7750 <HTTPError 402: 'Payment Required'>
-FM-ERR 7750 <HTTPError 402: 'Payment Required'>
-FM-ERR 7750 <HTTPError 402: 'Payment Required'>
-FM-ERR 7750 <HTTPError 402: 'Payment Required'>
-FM-ERR 7751 <HTTPError 402: 'Payment Required'>
-FM-ERR 7751 <HTTPError 402: 'Payment Required'>
-FM-ERR 7751 <HTTPError 402: 'Payment Required'>
-FM-ERR 7751 <HTTPError 402: 'Payment Required'>
-FM-ERR 7769 <HTTPError 402: 'Payment Required'>
-FM-ERR 7769 <HTTPError 402: 'Payment Required'>
-FM-ERR 7769 <HTTPError 402: 'Payment Required'>
-FM-ERR 7769 <HTTPError 402: 'Payment Required'>
-FM-ERR 7786 <HTTPError 402: 'Payment Required'>
-FM-ERR 7786 <HTTPError 402: 'Payment Required'>
-FM-ERR 7786 <HTTPError 402: 'Payment Required'>
-FM-ERR 7786 <HTTPError 402: 'Payment Required'>
-FM-ERR 7822 <HTTPError 402: 'Payment Required'>
-FM-ERR 7822 <HTTPError 402: 'Payment Required'>
-FM-ERR 7822 <HTTPError 402: 'Payment Required'>
-FM-ERR 7822 <HTTPError 402: 'Payment Required'>
-FM-ERR 7827 <HTTPError 402: 'Payment Required'>
-FM-ERR 7827 <HTTPError 402: 'Payment Required'>
-FM-ERR 7827 <HTTPError 402: 'Payment Required'>
-FM-ERR 7827 <HTTPError 402: 'Payment Required'>
-FM-ERR 7828 <HTTPError 402: 'Payment Required'>
-FM progress 700 / 759 rows 100469 fails 83
-FM progress 750 / 759 rows 108943 fails 83
-saved 110343 rows, 176 months
+FM progress 700 / 767 rows 100741 fails 79
+FM progress 750 / 767 rows 109275 fails 79
+saved 112081 rows, 177 months
