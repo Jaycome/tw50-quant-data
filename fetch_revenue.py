@@ -10,12 +10,8 @@ import glob
 import io
 import json
 import os
-import subprocess
-import sys
 import time
 import urllib.request
-
-subprocess.call([sys.executable, '-m', 'pip', 'install', '-q', 'lxml', 'html5lib'])
 
 import pandas as pd
 
